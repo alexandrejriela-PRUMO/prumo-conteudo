@@ -3,7 +3,10 @@
 Este repositório guarda tudo o que a tarefa agendada precisa para fazer os posts do PRUMO Hub,
 e as artes de cada post publicado (o Instagram puxa as imagens daqui, pelo link público).
 
-Calendário: **terça (carrossel)** e **quinta (imagem única)**, com aprovação do Alexandre antes de publicar.
+Calendário: **terça (carrossel)**, **quinta (imagem única)** e **sábado (Reels)**, sempre com aprovação do Alexandre antes de publicar.
+
+Para ideias de cena e de post, use `catalogo-telas.md` (como são as telas reais do Hub). Nunca publicar print real:
+recriar sempre com dados fictícios.
 
 ## Público e tom
 
@@ -64,6 +67,40 @@ Imagem única: `{"tipo": "unico", "selo": "...", "titulo": "...", "destaque": [.
 Gerar as artes: `python3 sistema/render.py posts/AAAA-MM-DD-slug/post.json posts/AAAA-MM-DD-slug`
 (precisa de `pip install --break-system-packages cairosvg` se não estiver instalado).
 Sempre abrir as imagens e conferir: texto cortado, sobreposição, linha órfã. Ajustar e renderizar de novo.
+
+## Reels de sábado (vídeo 9:16, 20 a 35 s)
+
+Projeto em `video/` (Remotion, sem custo de geração). Roteiro em JSON, no modelo de `video/exemplo.json`:
+
+- `gancho`: frase de abertura, palavra por palavra; a última linha sai em dourado. Até 8 palavras no total.
+- `modulo`: cena ilustrada do Hub com dados fictícios. Opções de `modulo`: crm, contrato, financeiro, processos,
+  alertas, termometro, mapa, geo, drone, clima, credito, ativos, relatorios, equipe. Precisa de `legenda` (2 linhas),
+  `caminho` (ex.: "Central da propriedade › Processos"), `titulo` e `icone`
+  (users, doc, chart, scale, alert, gauge, map, pin, upload, cloud, sprout, leaf, bell, cal).
+- `lista`: legenda (2 linhas) + 2 a 4 itens curtos (até ~60 caracteres cada), bom para dicas e regras.
+- `rute`: conversa com a IA Rute no WhatsApp (pergunta sobre renovação de LO). Não usar enquanto o WhatsApp do Hub
+  estiver fora do ar.
+- `fim`: cartão final com logo, 2 linhas e botão "Agende uma demonstração" + hub.prumo.site.
+- `dur` (opcional, em quadros a 30 por segundo) para alongar ou encurtar uma cena.
+
+Estrutura que funciona: gancho → 2 a 4 cenas (módulo ou lista) → fim. Não repetir o mesmo módulo em Reels seguidos
+(ver `historico.md`).
+
+Gerar: `bash video/gerar.sh posts/AAAA-MM-DD-slug/roteiro.json posts/AAAA-MM-DD-slug/reel.mp4` (leva uns 2 minutos;
+instala o que faltar). Conferir tirando quadros com ffmpeg (`-ss` em 4 ou 5 pontos) e olhando cada um.
+Para mostrar ao Alexandre: mandar o MP4 com SendUserFile (status proactive) e a legenda.
+
+Publicar (depois do OK):
+1. Commit de `posts/AAAA-MM-DD-slug/` (roteiro.json + reel.mp4) e push.
+2. O link do vídeo é pelo GitHub Pages (que entrega o arquivo como vídeo; o link raw não serve para vídeo):
+   `https://alexandrejriela-prumo.github.io/prumo-conteudo/posts/AAAA-MM-DD-slug/reel.mp4`
+   O Pages leva 1 a 3 minutos para atualizar depois do push; esperar 3 minutos antes de publicar
+   (este ambiente não consegue abrir o github.io para conferir).
+3. Instagram (Zapier, "Instagram for Business" → Publish Video): `instagramPageId = 17841401347529719`,
+   `video` = link acima, `caption` = legenda. Se der erro de arquivo não encontrado, esperar mais 3 minutos e tentar
+   de novo uma única vez.
+4. Facebook (Zapier, "Facebook Pages" → Create Page Video): `page = 973039659228877`, `source` = mesmo link,
+   `description` = legenda.
 
 ## Aprovação
 
