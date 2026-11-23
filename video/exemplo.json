@@ -1,0 +1,10 @@
+{
+  "tema": "Central da Propriedade: processos, alertas e regularidade",
+  "cenas": [
+    {"tipo": "gancho", "linhas": ["O auto de infração", "chega pelo satélite."]},
+    {"tipo": "modulo", "modulo": "alertas", "legenda": ["MapBiomas e PRODES", "de olho na fazenda."], "caminho": "Central da propriedade › Alertas de infrações", "titulo": "Alertas de Infrações", "icone": "alert", "dur": 135},
+    {"tipo": "modulo", "modulo": "processos", "legenda": ["Processos jurídicos", "e administrativos."], "caminho": "Central da propriedade › Processos", "titulo": "Tríplice Resp. Ambiental", "icone": "scale", "dur": 120},
+    {"tipo": "modulo", "modulo": "termometro", "legenda": ["Termômetro de", "regularidade."], "caminho": "Central da propriedade › Termômetro de regularidade", "titulo": "Termômetro de Regularidade", "icone": "gauge", "dur": 105},
+    {"tipo": "fim", "linhas": ["Veja antes", "do fiscal ver."]}
+  ]
+}
