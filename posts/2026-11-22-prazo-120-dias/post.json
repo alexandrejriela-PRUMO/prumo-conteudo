@@ -1,0 +1,44 @@
+{
+  "pilar": "Controle de prazos",
+  "formato": "carrossel",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "CONTROLE DE PRAZOS",
+      "titulo": "A licença vence em 4 meses? Você já está no limite.",
+      "destaque": ["você", "já", "está", "no", "limite"],
+      "sub": "Tem uma regra de 120 dias que separa a renovação tranquila da operação irregular."
+    },
+    {
+      "tipo": "texto",
+      "num": 1,
+      "titulo": "A regra dos 120 dias",
+      "destaque": ["120", "dias"],
+      "texto": "Pedindo a renovação com pelo menos 120 dias de antecedência, a licença continua valendo até o órgão ambiental decidir. Mesmo que a análise demore meses.",
+      "fonte": "LC 140/2011, art. 14, §4º"
+    },
+    {
+      "tipo": "texto",
+      "num": 2,
+      "titulo": "Perdeu o prazo? A licença vence na data.",
+      "destaque": ["vence", "na", "data"],
+      "texto": "Sem a prorrogação automática, o empreendimento fica descoberto até sair a nova licença. Funcionar nesse intervalo é funcionar sem licença, e isso dá auto de infração.",
+      "fonte": "Decreto 6.514/2008, art. 66"
+    },
+    {
+      "tipo": "texto",
+      "num": 3,
+      "titulo": "O difícil não é a regra. É lembrar dela para 40 clientes.",
+      "destaque": ["40", "clientes"],
+      "texto": "Cada licença com sua data, cada órgão com seu ritmo. Na planilha, o prazo que escapa é sempre o do cliente que você menos esperava."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "O Prumo Hub avisa antes do prazo apertar.",
+      "texto": "Cada licença da carteira com alerta de vencimento, na antecedência que você definir.",
+      "botao": "Conheça o Prumo Hub",
+      "site": "hub.prumo.site"
+    }
+  ],
+  "legenda": "Licença de operação vencendo em 4 meses parece tempo de sobra. Não é.\n\nA LC 140/2011 (art. 14, §4º) garante que a licença continua válida até o órgão decidir, desde que a renovação seja pedida com pelo menos 120 dias de antecedência. Perdeu essa janela, a licença vence na data, e operar depois disso é operar sem licença.\n\nA regra é simples. O difícil é acompanhar a data de cada licença, de cada cliente, ao mesmo tempo.\n\nNo Prumo Hub, cada licença da carteira tem alerta de vencimento na antecedência que você escolher.\n\nTeste em hub.prumo.site\n\n#consultoriaambiental #licenciamentoambiental #engenhariaflorestal #licençadeoperação #gestãoambiental"
+}
