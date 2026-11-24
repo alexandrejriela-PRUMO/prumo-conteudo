@@ -1,0 +1,70 @@
+{
+  "pilar": "Organização e histórico",
+  "formato": "carrossel",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "ORGANIZAÇÃO E HISTÓRICO",
+      "titulo": "O técnico saiu.\nO histórico do cliente também.",
+      "destaque": [
+        "histórico",
+        "do",
+        "cliente",
+        "também"
+      ],
+      "sub": "Quando a informação mora no celular e na cabeça de cada um, ela vai embora junto."
+    },
+    {
+      "tipo": "texto",
+      "num": 1,
+      "titulo": "O histórico está no WhatsApp de alguém",
+      "destaque": [
+        "WhatsApp",
+        "de",
+        "alguém"
+      ],
+      "texto": "Protocolo no e-mail de um, foto da vistoria no celular de outro, mapa na pasta \"FINAL_v3\" do notebook de um terceiro. Funciona até a pessoa sair, tirar férias ou trocar de celular."
+    },
+    {
+      "tipo": "texto",
+      "num": 2,
+      "titulo": "A pergunta chega e ninguém acha a resposta",
+      "destaque": [
+        "ninguém",
+        "acha"
+      ],
+      "texto": "O cliente quer saber o que ficou acertado na última licença. O órgão pede um protocolo antigo. E a equipe para tudo para procurar em pasta, e-mail e grupo de WhatsApp."
+    },
+    {
+      "tipo": "texto",
+      "num": 3,
+      "titulo": "Retrabalho que não vira honorário",
+      "destaque": [
+        "não",
+        "vira",
+        "honorário"
+      ],
+      "texto": "Pedir de novo o documento que o cliente já mandou. Refazer o mapa que já existia. Ligar no órgão para saber um andamento que alguém já tinha visto. É hora de técnico que ninguém paga."
+    },
+    {
+      "tipo": "texto",
+      "num": 4,
+      "titulo": "Uma ficha por propriedade,\npara a equipe toda",
+      "destaque": [
+        "uma",
+        "ficha",
+        "por",
+        "propriedade"
+      ],
+      "texto": "CAR, licenças, processos e documentos no mesmo lugar, à vista de todos. Quem entra na equipe abre a propriedade e já entende em que pé está o caso."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "No Prumo Hub, o histórico fica no escritório.",
+      "texto": "Cada propriedade com sua central: CAR, licenças, processos e documentos. Quem chega na equipe encontra tudo.",
+      "botao": "Conheça o Prumo Hub",
+      "site": "hub.prumo.site"
+    }
+  ],
+  "legenda": "Técnico bom sai, tira férias, troca de celular. E junto vai um pedaço do histórico dos seus clientes.\n\nEm muita consultoria, a informação de cada propriedade está espalhada: protocolo no e-mail de um, foto de vistoria no celular de outro, mapa numa pasta que só uma pessoa sabe onde fica.\n\nO problema aparece quando alguém pergunta. O cliente quer saber o que ficou acertado na última licença, o órgão pede um protocolo antigo, e a equipe para tudo para procurar. Pior: pede de novo o documento que o cliente já mandou, refaz o mapa que já existia. É hora de técnico que não vira honorário.\n\nNo Prumo Hub, cada propriedade tem sua central: CAR, licenças, processos e documentos no mesmo lugar, à vista de toda a equipe. Quem chega no escritório abre a propriedade e já sabe em que pé está o caso.\n\nTeste em hub.prumo.site\n\n#consultoriaambiental #engenhariaflorestal #gestãoambiental #licenciamentoambiental #consultoriarural"
+}
