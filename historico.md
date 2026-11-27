@@ -6,3 +6,4 @@ Uma linha por post, mais recente no fim. Ler antes de escolher o tema do próxim
 |---|---|---|---|---|
 | 2026-11-22 | Carrossel (5) | Controle de prazos | Regra dos 120 dias para renovar licença (LC 140/2011, art. 14, §4º) | https://www.instagram.com/p/DgESwICjO8p/ |
 | 2026-11-24 | Carrossel (6) | Organização e histórico | Quando o técnico sai, o histórico do cliente vai junto (central da propriedade) | https://www.instagram.com/p/DgIQwhIl_d0/ |
+| 2026-11-26 | Imagem única | Risco e monitoramento | Prazo de 20 dias para defesa do auto de infração (Lei 9.605/1998, art. 71, I) | https://www.instagram.com/p/DgOYgnJFzY6/ |
